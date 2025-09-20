@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial scale="1.0" >
+    <title>
+        menu
+    </title>
+    <div class="overlay"></div>
+    <style>
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 10%;
+            object-fit: cover;
+            z-index: -2;}
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* darkens the video slightly */
+            z-index: -1;
+        }
+            
+        h1{
+            
+            text-align: center;
+            color:brown;
+            font-size: 70px;
+            margin-top: -2px;
+            margin-bottom: -25px;
+            z-index:1px;
+        }
+        h4{
+            font-style: italic;
+            color:rgb(24, 2, 2);
+            text-align: center;
+            border-color: gold;
+            border-width: 100px;
+            z-index:1px;
+        }
+        .menu{
+            padding: 20px;
+            margin-left:auto;
+            margin-right: auto;
+            background-color: hsl(34, 73%, 51%);
+            max-width: 800px;
+            width:80%;
+            z-index:1px;
+            border: 4px solid;
+            border-color: rgb(242, 237, 231);
+        }
+        hr{
+            height: 3px;
+            background-color:burlywood;
+            z-index:1px;
+
+        }
+        h3{
+            font-style: italic;
+            font-size: 22px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-top: 30px;
+            text-align: center;
+            color:rgb(20, 17, 17);
+            z-index:1px;
+        }
+        p{
+            font-style: italic;
+            z-index:1px;
+        }
+        .starters{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 20px;
+            z-index:1px;
+
+        }
+        .price{
+            text-align: right;
+            margin-right: 50px;
+            z-index:1px;
+            font-weight: bold;
+        
+        }
+        .items{
+            text-align: left;
+        }
+        .footer{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align:center;
+            font-size:14px;
+
+        }
+
+    </style>
+
+
+    
+</head>
+<body>
+    <section>
+        <video autoplay muted loop playsinline id="bg-video">
+        <source src="1111421-hd_1920_1080_30fps.mp4" type="video/mp4"></video>
+    <div class="menu">
+        <h1>HORIZON</h1>
+        <h4>fine-dine restraunt and bar</h4>
+        <hr>
+        <h3>STARTERS</h3>
+        <article class="starters"><p class="items">Baked camembert</p><p class="price">10.00</p></article>
+        <article class="starters"><p class="items">Garlic bread with cheese</p><p class="price">25.00</p></article>
+        <article class="starters"><p class="items">Bruschetta special</p><p class="price">15.00</p></article>
+        <article class="starters"><p class="items">Bruschetta regualr</p><p class="price">10.00</p></article>
+        <article class="starters"><p class="items">Stuffed mushrooms</p><p class="price">8.00</p></article>
+        <article class="starters"><p class="items">Chicken wings</p><p class="price">25.00</p></article>
+        <article class="starters"><p class="items">Spring rolls</p><p class="price">13.00</p></article>
+        <article class="starters"><p class="items">Nachos</p><p class="price">18.00</p></article>
+        <article class="starters"><p class="items">puffed omelette</p><p class="price">11.00</p></article>
+    </div>
+    </section>
+        <article>
+            <div class="menu">
+                <h3> MAIN COURSE</h3>
+                <article class="starters"><p class="items">Saffron risotto with forest mushrooms</p><p class="price">80.00</p></article>
+                <article class="starters"><p class="items">Chicken tagine makful</p><p class="price">90.00</p></article>
+                <article class="starters"><p class="items">Tasmanian salmon fillet with Dutch carrot pure</p><p class="price">75.00</p></article>
+                <article class="starters"><p class="items">Chinese chicken salad</p><p class="price">60.00</p></article>
+                <article class="starters"><p class="items">Spring carbonara</p><p class="price">70.00</p></article>
+                <article class="starters"><p class="items">Spaghetti with ham, ceps and black truffle</p><p class="price">90.00</p></article>
+                <article class="starters"><p class="items">Seafood and chicken paella</p><p class="price">50.00</p></article>
+                <article class="starters"><p class="items">East Lothian beef and braised truffle barley</p><p class="price">67.00</p></article>
+                <article class="starters"><p class="items">Ravioli Di Erbette</p><p class="price">110.00</p></article>
+            </div>
+        </article>
+        <section>
+            <div class="menu">
+                <h3>DESSERTS</h3>
+                <article class="starters"><p class="items">Chocolate fondant with vanilla ice cream</p><p class="price">30.00</p></article>
+                <article class="starters"><p class="items">Lemon tart with raspberry sorbet</p><p class="price">25.00</p></article>
+                <article class="starters"><p class="items">Sticky toffee pudding with caramel sauce and vanilla ice cream</p><p class="price">35.00</p></article>
+                <article class="starters"><p class="items">Crème brûlée</p><p class="price">20.00</p></article>
+                <article class="starters"><p class="items">Cheesecake of the day</p><p class="price">22.00</p></article>
+                <article class="starters"><p class="items">Selection of ice creams and sorbets</p><p class="price">15.00</p></article>
+                <article class="starters"><p class="items">Affogato - vanilla ice cream with a shot of espresso</p><p class="price">18.00</p></article>
+            
+                <hr class="footer hr">
+                <a href="http://127.0.0.1:5500/menu%20book%20section.html" target="_blank"><h3 class="footer">BOOK YOUR SEAT</h3></a>
+                </div>
+         </section>
+</body>
+</html>
